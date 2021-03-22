@@ -81,7 +81,8 @@ function handleConnection(socket){
         const bebida = parseInt(parametros[2]);
 
         //console.log(data.toString());
-                    
+        //client.write("PEDIDO 1 1 \n");
+        //client.write("CARDAPIO \n");
         switch (commando) {
             case "PEDIDO":
                 socket.write( "\n---- PEDIDO ---- " + "\n" + 
