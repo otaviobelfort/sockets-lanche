@@ -1,0 +1,23 @@
+{
+  "name": "sockets-lanche",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otaviobelfort/sockets-lanche.git"
+  },
+  "author": "BELFORT, Otavio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otaviobelfort/sockets-lanche/issues"
+  },
+  "homepage": "https://github.com/otaviobelfort/sockets-lanche#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
